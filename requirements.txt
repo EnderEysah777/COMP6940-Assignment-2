@@ -1,0 +1,15 @@
+# Core (both parts)
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+scipy>=1.10
+
+# Part 1 — JAX Weibull (CPU wheels; use JAX CUDA install if you run on GPU)
+jax[cpu]>=0.4.25
+
+# Part 2 — classification, SHAP, DiCE, parquet
+scikit-learn>=1.3
+xgboost>=2.0
+shap>=0.44
+dice-ml>=0.11
+pyarrow>=12.0
